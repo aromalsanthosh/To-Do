@@ -32,6 +32,7 @@ input{
     width: 70%;
     border-radius: 4px;
     color: #1857B7;
+    background:  #e6e1e1;
 }
 button{
     padding: 7px 14px;
@@ -50,7 +51,7 @@ ul{
 li{
     list-style: none;
     padding: 10px 5px;
-    background-color: #E8ACF4;
+    background-color: #e899f8;
     margin: 12px 0;
     box-shadow: 0 2px 8px rgba(0,0,0,.16);
     border-radius: 3px;
