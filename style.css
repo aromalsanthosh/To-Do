@@ -9,6 +9,8 @@ html {
 }
 body {
     background-image: linear-gradient(to right bottom, #1857b7, #008ae1, #00b5cb, #00d782, #a8eb12);
+    
+
 }
 .container {
     border-radius:8px;
@@ -45,7 +47,6 @@ button{
 }
 .list{
     height: 550px;
-    overflow-y: scroll
 }
 ul{
     padding: 15px;
@@ -58,7 +59,7 @@ li{
     background-color: #f899eb;
     margin: 12px 0;
     box-shadow: 0 2px 8px rgba(0,0,0,.16);
-    border-radius: 3px;
+    border-radius: 8px;
     transition: .4s;
 }
 button:hover{
