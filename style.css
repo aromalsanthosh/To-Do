@@ -47,7 +47,6 @@ button{
 }
 .list{
     height: 550px;
-
 }
 ul{
     padding: 15px;
@@ -63,6 +62,7 @@ li{
     border-radius: 8px;
     transition: .4s;
 }
+
 button:hover{
     background-color: #1565c0;
 }
@@ -72,7 +72,11 @@ li:hover{
     box-shadow: #021025 0px 0px 6px;
 }
 
-.checked{
-    text-decoration: line-through;
-    background-color: #FF7799;
+.delete{
+ float: right;
+ background-color: #022f44;
 }
+.delete:hover{
+    background-color: #e21a56;
+}
+
