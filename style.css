@@ -17,7 +17,7 @@ body {
     box-shadow: #021025 0px 0px 15px;
     position: absolute;
     width: 480px;
-    height: 760px;
+    height: 680px;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
@@ -47,6 +47,7 @@ button{
 }
 .list{
     height: 550px;
+
 }
 ul{
     padding: 15px;
