@@ -49,6 +49,9 @@ button{
     border-radius: 4px;
     color: #fafafa;
 }
+#bttn{
+    box-shadow: 0px 0px 2px #000102;
+}
 .list{
     height: 550px;
 }
