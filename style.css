@@ -97,3 +97,9 @@ li:hover{
     font-size: small;
 
   }
+.bookmark a{
+    color: rgb(27, 23, 25);
+}
+.bookmark a:hover{
+    color: #3800ee;
+}
