@@ -12,7 +12,7 @@ btn.onclick = function(){
     }else{
         li = document.createElement('li');
         li.classList.add("task");
-        li.innerHTML = `${txt}<button class="delete">X</button>`;
+        li.innerHTML = `<button id="edt" class="edit"><i class="fas fa-pencil-alt"></i></button>${txt}<button id="dlt" class="delete">X</button>`;
         list.insertBefore(li,list.childNodes[0]);
         input.value = '';
       addDeleteEvents();
@@ -32,10 +32,15 @@ function addDeleteEvents(){
         tasks[index].addEventListener("click", function(){
          this.classList.toggle("active");
       });
-      tasks[index].querySelector("button").addEventListener("click",
+      tasks[index].querySelector("#dlt").addEventListener("click",
       function(){
          this.closest(".task").remove();
       });
+    //   tasks[index].querySelector("#edt").addEventListener("click",
+    //   function(){
+        
+    //   });
+
    }
 }
 

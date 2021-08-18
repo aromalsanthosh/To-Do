@@ -7,28 +7,33 @@
     <title>To-Do</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="/fvc.png"/>
+    
 </head>
 
 <body>
     <div class="bookmark">
         <h2>Made with ❤️ by <a href="https://aromalsanthosh.tech">Aromal</a></h2>
     </div>
+    
     <div class="container">
         <h1>To-Do List</h1>
+  
+
+        
         <div class="add-todo">
             <input id="add" type="text" placeholder="Add A New Task..">
             <button id="bttn">Add</button>
         </div>
         <div class="list">
             <ul id="item">
-                <li class="task">Pay Electricity Bill <button class="delete">X</button></li>
-                <li class="task">Finish Homework <button class="delete">X</button></li>
-                <li class="task">Water Plants <button class="delete">X</button></li>
-                <li class="task">Clean House <button class="delete">X</button></li>
+                <li class="task"><button id="edt" class="edit"><i class="fas fa-pencil-alt"></i></button>Pay Electricity Bill <button id ="dlt" class="delete">X</button></li>
+                <li class="task"><button id="edt" class="edit"><i class="fas fa-pencil-alt"></i></button>Finish Todo App <button id ="dlt" class="delete">X</button></li>
+                
             </ul>
         </div>
     </div>
     <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/e53b41c6e6.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
