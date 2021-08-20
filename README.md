@@ -1,4 +1,5 @@
 # [To-Do](https://mytodov1.netlify.app/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d28a9d58-b705-4e21-bd5c-f4491caad2d6/deploy-status)](https://app.netlify.com/sites/mytodov1/deploys)
 
 ##### A To-Do Web App built using HTML5, CSS & JavaScript. Built as a part of internship training in [Incredible Visibility](https://www.incrediblevisibility.com/)
 
