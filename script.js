@@ -3,19 +3,7 @@ const  btn = document.querySelector("#bttn"); // Add button
 const list = document.querySelector("#item"); // li item
 var element = document.getElementsByTagName('li'); 
 
-//function to edit todo
-function editTodo(){
-  const edit = document.getElementsByClassName('edit');
-  for (var index = 0; index <edit.length; index++){
-    edit[index].addEventListener("click",
-      function(){
-      var text = prompt("Edit This To-Do ");
-      this.closest(".task").innerHTML = `<button id="edt" class="edit"><i class="fas fa-pencil-alt"></i></button>${text}<button id="dlt"    class="delete">X</button>`;
-    }
-    )
- }
-}
-editTodo();
+
 
 //function to add todo
 btn.onclick = function(){
@@ -30,6 +18,7 @@ btn.onclick = function(){
         list.insertBefore(li,list.childNodes[0]);
         input.value = '';
       addDeleteEvents();
+      editTodo();
     }
     
 };
@@ -66,3 +55,18 @@ document.getElementById("add")
         document.getElementById("bttn").click();
     }
 });
+
+
+//function to edit todo
+function editTodo(){
+    const edit = document.getElementsByClassName('edit');
+    for (var index = 0; index <edit.length; index++){
+      edit[index].addEventListener("click",
+        function(){
+        var text = prompt("Edit This To-Do ");
+        this.closest(".task").innerHTML = `<button id="edt" class="edit"><i class="fas fa-pencil-alt"></i></button>${text}<button id="dlt"    class="delete">X</button>`;
+      }
+      )
+   }
+  }
+  editTodo();
