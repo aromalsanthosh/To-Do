@@ -65,8 +65,10 @@ function editTodo(){
         function(){
         var text = prompt("Edit This To-Do ");
         this.closest(".task").innerHTML = `<button id="edt" class="edit"><i class="fas fa-pencil-alt"></i></button>${text}<button id="dlt"    class="delete">X</button>`;
-      }
+        addDeleteEvents();
+    }
       )
    }
+   
   }
   editTodo();
