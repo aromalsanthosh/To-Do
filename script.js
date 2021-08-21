@@ -18,8 +18,9 @@ btn.onclick = function(){
         list.insertBefore(li,list.childNodes[0]);
         input.value = '';
       addDeleteEvents();
-      editTodo();
+      
     }
+    editTodo();
     
 };
 //function to mark todo as done (strikethrough)
